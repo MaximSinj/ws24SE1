@@ -1,30 +1,16 @@
 package org.hbrs.se1.ws24.exercises.uebung1.control;
 
 /**
- * Das Translator Interface. Die Anzahl der Methoden ist fix
- * und darf NICHT erweitert werden. Sichtbarkeiten koennen
- * unter Umstaenden angepasst werden.
- *
+ * Interface fuer Translator-Objekte, muss auf jeden Fall auf public gesetzt werden, sonst nicht sichtbar
+ * fuer andere Packages
  * @author saschaalda
  *
  */
-
-interface Translator {
+public interface Translator {
 	
-	double version = 1.0; // Version des Interface
+	public double version = 1.0; 
 	
-	/*
-	 * Uebersetzt eine numerische Zahl in eine String-basierte
-	 * Repraesentation gemaess der Spezifikation in der Aufgabe 1-2 
-	 */
-    String translateNumber(int number);
+	public String translateNumber(int number);
 
 } 
-
-
-
-
-
-
-
-
+ 
