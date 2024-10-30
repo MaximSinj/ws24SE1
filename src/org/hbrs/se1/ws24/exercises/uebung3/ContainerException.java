@@ -32,5 +32,4 @@ public class ContainerException extends Exception {
 		InfoCastException, DuplicateMember
 	}
 
-
 }
